@@ -1,0 +1,664 @@
+
+
+body {
+ position: relative;
+  padding: 0;
+margin: 0;
+    
+}
+.js-reveal {
+opacity: 1;
+transition: opacity .7s ease-in, margin-top .7s ease-out;
+}
+.js-reveal--hidden {
+opacity: 0;
+margin-top: 3em;
+}
+h1 {
+    font-size: 60px;
+    color:#fff;
+}
+
+/*navigacija*/
+
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: -35px;
+    padding: 0;
+    padding-top: 3px;
+}
+.navbar-default {
+    background-color:#D9B700;
+    border-bottom: 4px solid #E5C101;
+ 
+}
+
+.navbar-header > a > img {
+  
+}
+ @media screen and (max-width: 768px){
+    .navbar-header > a > img {
+    margin-left: 30px;
+    margin-top: -10px; 
+    width: 60px;
+    height: 50px;
+        
+}
+     
+ }
+.navbar-default .navbar-nav > li > a {
+   font-family:  'PT Sans', Helvetica, sans-serif;
+    color: #fff;
+    line-height: 2em;
+    
+}
+
+.navbar-default .navbar-nav > .active > 
+a, .navbar-default .navbar-nav > 
+.active > a:hover, 
+.navbar-default .navbar-nav > 
+.active > a:focus  {
+    background-color: transparent;
+    color: #fff;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover ,
+.navbar-default .navbar-toggle:focus {
+    background-color: #859B1C;
+}
+.navbar-toggle {
+    border: none;
+}
+.navbar-toggle .icon-bar {
+    height: 4px;
+}
+
+@media screen and (max-width: 768px) {
+     .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand  {
+        padding: 13px;
+         
+    }
+    
+}
+/*QUOTE */ /*QUOTE */ /*QUOTE */ /*QUOTE */ /*QUOTE */ /*QUOTE */ 
+#mob_button {
+  display: none;
+}
+.clr {
+    width: 100%;
+    clear: both;
+}
+
+#quote {
+    clear: both;
+    width: 100%;
+    display: block;
+    
+    text-align: center;
+    background: #859B1C;
+  
+    
+    
+}
+
+#quote img {
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    padding-bottom: 0;
+}
+#quote > h2 {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+    font-size: 2.5em;
+    font-weight: 100;
+    color: #fff;
+    
+}
+#quote > h2 span {
+    font-family: Times;
+    font-size: .8em;
+    font-style: italic;
+}
+
+@media screen and (max-width: 768px){
+    #quote > h2 {
+    font-size: 1.35em;   
+}
+#quote > h2 span {
+    font-size: .8em;
+}
+        
+}
+@media screen and (max-width: 568px) {
+#quote  {
+        padding-top: 3%;
+        padding-bottom: 8%;
+        margin-top: 5%;
+
+    }
+#quote img {
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+}  
+#mob_button {
+  display: block;
+  width: 100%;
+  float: left;
+ text-align: center;
+}  
+.pozovite {
+  display: block;
+  float: left;
+  font-size: 1.4em;
+  color: #fff;
+   padding:20px 60px;
+   width: 100%;
+   background: #D9B700;
+   font-family: 'Bebas Neue', Helvetica, sans-serif;
+   margin-top: -30px;
+}
+#mob_button a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #56768B;
+}
+}
+@media screen and (max-width: 480px) {
+#quote > h2 {
+    font-size: 1.2em;   
+    padding-top:0;
+}
+#quote > h2 span {
+    font-size: .7em;
+   
+    
+}
+}
+
+
+
+/* O NAMA*/ /* O NAMA*/ /* O NAMA*/ /* O NAMA*/ /* O NAMA*/ 
+
+#o_nama {
+    width: 100%;
+    padding-bottom: 100px;
+    height: auto;
+    background:#E4E4E4;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+   
+}
+#o_nama #trougao{
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 26px 100px 0 100px;
+    border-color: #859B1C transparent transparent transparent;
+}
+#o_nama h2 {
+    text-align: center;
+    color:#3C3733;
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+    font-size: 3em;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+} 
+
+
+.zanko img {
+    width: 70%;
+    max-width: 400px;
+    min-width: 250px;
+    
+}
+
+.tekst p {
+    text-align:left;
+    padding-top: 20px;
+    font-family: Helvetica;
+    line-height: 1.4em;
+     
+}
+
+.tekst a {
+    background: none repeat scroll 0 0 #859B1C;
+    color: #fff;
+    display: block;
+    font-family: "PT Sans",Helvetica,sans-serif;
+    font-size: .8em;
+    padding: 15px;
+    width: 20%;
+    cursor: pointer;
+    -webkit-transition: background-color 0.7s ease;
+  -moz-transition: background-color 0.7s ease;
+  -o-transition: background-color 0.7s ease;
+  transition: background-color 0.7s ease;
+}
+.tekst a:hover {
+    text-decoration: none;
+    background: #3E3B36;
+}
+@media screen and (max-width: 900px) {
+   
+    
+    .tekst p {
+  padding-right: 20px;
+}
+}
+@media screen and (max-width: 768px) {
+    
+    #o_nama h2 {
+        font-size: 2em;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .zanko img {
+    
+
+    max-width: 400px;
+    min-width: 200px;
+}
+.tekst p {
+    font-size: 13px;
+    text-align: center
+}
+    
+}
+
+@media screen and (max-width: 640px) {
+    #o_nama {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+     .tekst a {
+       font-size: .7em;
+         width: 30%;
+    }
+}
+
+/*Nasi proizvodi*/ /*Nasi proizvodi*/ /*Nasi proizvodi*/ /*Nasi proizvodi*/ /*Nasi proizvodi*/
+ 
+#sadrzaj{
+    width: 100%;
+    
+
+    background:url(images/proizvodi_bg.jpg) no-repeat;
+    background-size: 1920px 2600px;
+    background-position: center;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    padding-bottom: 60px;
+}      
+ #trougao2 {
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 26px 100px 0 100px;
+    border-color: #E4E4E4 transparent transparent transparent;
+ }   
+#sadrzaj h2 {
+    text-align: center;
+    padding-top: 60px;
+     padding-bottom:40px;
+    color: #3C3933;
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+    font-size: 3em;
+    color: #fff;
+    width: 100%;
+    
+} 
+
+#sadrzaj > .row > h2 span {
+    font-size: 17px;
+    font-family:  Helvetica;
+} 
+@media screen and (max-width: 650px) {
+    .sadrzaj h2 {
+       padding-top: 30px;
+     padding-bottom:30px; 
+        font-size: 2.2em
+    }
+    .sadrzaj > .row > h2 span {
+    
+    font-size: 13px;
+}
+}
+
+ 
+.proizvodi_slike img {
+ max-width: 315px;
+min-width: 210px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+   -webkit-transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   -ms-transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out;
+   
+    
+}
+.proizvodi_slike img:hover {
+    background: #D9B700;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+   
+  
+}
+
+
+
+@media screen and (max-width: 1150px)  {
+   .proizvodi_slike{
+    padding: 0;
+       margin: 0;
+   }
+}
+@media screen and (max-width: 768px) {
+   .proizvodi_slike img {
+ 
+    width:70%;
+} 
+ 
+}
+
+/*ZANIMLJIVOSTI*/ /*ZANIMLJIVOSTI*//*ZANIMLJIVOSTI*/ /*ZANIMLJIVOSTI*/ /*ZANIMLJIVOSTI*/ /*ZANIMLJIVOSTI*/ /*ZANIMLJIVOSTI*/
+
+#harmonika_dugmetara {
+    width: 100%;
+    overflow: hidden;
+    background: #D9B700;
+    text-align: center;
+    padding-bottom: 60px;
+}
+#harmonika_dugmetara h2 {
+    color: #fff;
+    font-family: "Bebas Neue",Helvetica,sans-serif;
+    font-size: 3em;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 40px;
+      padding-top: 60px;
+}
+
+.cd-tabs {
+  position: relative;
+  width: 90%;
+  max-width: 1199px;
+  margin: 2em auto;
+}
+.cd-tabs:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cd-tabs::after {
+  /* subtle gradient layer on top right - to indicate it's possible to scroll */
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 60px;
+  width: 50px;
+  z-index: 1;
+  pointer-events: none;
+
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.no-cssgradients .cd-tabs::after {
+  display: none;
+}
+.cd-tabs.is-ended::after {
+  /* class added in jQuery - remove the gradient layer when it's no longer possible to scroll */
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-tabs nav {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  background: #D9B700;
+ 
+}
+
+
+.cd-tabs-navigation {
+  width: 100%;
+}
+.cd-tabs-navigation:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cd-tabs-navigation li {
+  float: left;
+    width: 33.333%;
+    
+}
+.cd-tabs-navigation a {
+  position: relative;
+  display: block;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  line-height: 3.5em; 
+}
+
+.no-touch .cd-tabs-navigation a:hover {
+  color: #29324e;
+  background-color: rgba(233, 230, 202, 0.3);
+    text-decoration: none;
+}
+.cd-tabs-navigation a.selected {
+  background-color: #DDDCDA !important;
+  box-shadow: outset 0 2px 0 #f05451;
+  color: #29324e;
+}
+
+
+/*sadrzaj tabova*/ /*sadrzaj tabova*/ /*sadrzaj tabova*/ /*sadrzaj tabova*/ /*sadrzaj tabova*/ /*sadrzaj tabova*/
+.cd-tabs-content {
+  background: #DDDCDA;
+    
+}
+.cd-tabs-content li {
+  display: none;
+  padding: 1.4em;
+}
+.cd-tabs-content li.selected {
+  display: block;
+  -webkit-animation: cd-fade-in 0.5s;
+  -moz-animation: cd-fade-in 0.5s;
+  animation: cd-fade-in 0.5s;
+}
+.cd-tabs-content li p {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #8493bf;
+  margin-bottom: 2em;
+  font-family: Helvetica;
+    padding:30px;
+    
+    text-align: left;
+    color: #3F3A36;
+}
+
+.cd-tabs-content li img {
+    max-width: 150px;
+    min-width: 90px;
+    float: left;
+    margin: 30px;
+    margin-left: 30px;
+}
+@media screen and (max-width: 768px) {
+.cd-tabs-content li img {
+    float: none;
+    margin: 0;
+}
+.cd-tabs-content li p {
+  font-size: 12px;
+    padding:30px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+    .cd-tabs-navigation a  {
+        font-size: .8em;
+        line-height: 4.5em;
+    }
+}
+@-webkit-keyframes cd-fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes cd-fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes cd-fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.bold {
+    font-weight: bold;
+}   
+/*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*//*FOOTER*/ 
+#footer_b {
+    width: 100%;
+    background: #3A5D71;
+background-attachment:
+    
+}
+#foo_container {
+   
+    margin: 0 auto;
+    overflow: hidden;
+}
+#trougao3 {
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 26px 100px 0 100px;
+    border-color: #D9B700 transparent transparent transparent; 
+}
+#footer_b h2 {
+    color: #fff;
+    font-family: "Bebas Neue",Helvetica,sans-serif;
+    font-size: 3em;
+    padding-top: 45px;
+    text-align: center;
+    width: 100%;
+}
+/*sekcije*/ /*sekcije*/ /*sekcije*/ /*sekcije*/ /*sekcije*/ /*sekcije*/ 
+.kontakti {
+    text-align: center;
+}
+#emajl,
+#tel_ {
+    color: #fff;
+    font-family: 'PT Sans',Helvetica,sans-serif;
+    font-size: 1.15em;
+    text-align: center; 
+    padding-top: 30px;
+     padding-bottom: 40px;
+   
+}
+.kontakti a {
+    display: inline-block;
+    
+}
+.kontakti img {
+    width: 60px;
+    height: 35px; 
+}
+
+
+
+#design {
+    width: 100%;
+    text-align: center;
+    clear: both;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#design a {
+    color: #fff;
+    font-family: "Bebas Neue",Helvetica,sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+.mail p,
+.tel p {
+    font-size: 1.4em;  
+}
+
+}
+
+/*SCROLL TO TOP*/ /*SCROLL TO TOP*/ /*SCROLL TO TOP*/ /*SCROLL TO TOP*/ /*SCROLL TO TOP*/ /*SCROLL TO TOP*/ /*SCROLL TO TOP*/ 
+
+#toTop {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 64px;
+    height: 64px;
+    background-image: url('images/square-hover.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    border-radius: 20%;
+}
+#toTop:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
